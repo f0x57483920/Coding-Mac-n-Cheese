@@ -16,7 +16,7 @@ public class App extends Application {
         var javaVersion = SystemInfo.javaVersion();
         var javafxVersion = SystemInfo.javafxVersion();
 
-        var label = new Label("Hello, JavaFX " + javafxVersion + ", running on Java " + javaVersion + ".");
+        var label = new Label("Hello, JavaFX " + javafxVersion + ", running on Java  " + javaVersion + "And Coding & Mac' n Cheese is ready to go!.");
 
         var scene = new Scene(new StackPane(label, new Label("EZ PZ")), 640, 480);
         stage.setScene(scene);
