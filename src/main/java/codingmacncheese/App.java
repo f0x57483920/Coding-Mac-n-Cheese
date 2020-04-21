@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
@@ -17,8 +18,8 @@ public class App extends Application {
         var javafxVersion = SystemInfo.javafxVersion();
 
         var label = new Label("Hello, JavaFX " + javafxVersion + ", running on Java  " + javaVersion + "And Coding & Mac' n Cheese is ready to go!.");
-
-        var scene = new Scene(new StackPane(label, new Label("EZ PZ")), 640, 480);
+        VBox vbox = new VBox(label, new Label("EZ PZ"));
+        var scene = new Scene(vbox, 640, 480);
         stage.setScene(scene);
         stage.show();
     }
