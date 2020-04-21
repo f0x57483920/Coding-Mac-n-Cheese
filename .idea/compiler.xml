@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Coding-Mac-n-Cheese" />
         <module name="macncheese" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Coding-Mac-n-Cheese" target="14" />
+    </bytecodeTargetLevel>
   </component>
 </project>
